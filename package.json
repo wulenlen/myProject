@@ -1,0 +1,38 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "ts learning",
+  "main": "index.js",
+  "dependencies": {
+    "@types/faker": "^4.1.12",
+    "axios": "^0.19.2",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/baidumap-web-sdk": "0.0.3",
+    "@types/jquery": "^3.5.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "faker": "^4.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulenlen/myProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulenlen/myProject/issues"
+  },
+  "homepage": "https://github.com/wulenlen/myProject#readme"
+}
